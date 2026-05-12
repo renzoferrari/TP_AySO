@@ -417,3 +417,11 @@ cat .bash_history
 clear
 cd repogit/
 cd TP_AySO/
+cp ../../.bash_history Historial_comandos_RenzoFerrari.txt
+git status
+git add Historial_comandos_RenzoFerrari.txt 
+git status
+git commit -m Docs:Se actualizo Historial de comandos utilizados
+git commit -m "Docs:Se actualizo Historial de comandos utilizados"
+git push
+history -a
