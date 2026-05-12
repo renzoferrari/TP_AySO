@@ -1,0 +1,419 @@
+ls
+cat readme
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+cd .
+ls -la
+history
+git --version
+ls
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat authorized_keys
+cd
+ssh-keygen
+ls
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa
+ls -la
+cat id_rsa.pub 
+git --version
+cd
+git clone git@github.com:renzoferrari/tp1-ARQSO.git
+pwd
+ls
+cd
+ssh -keygen
+ssh-keygen
+y
+ssh-keygen
+pwd
+ls -la
+cat $HOME/.ssh/*.pub
+pwd
+mkdir repogit
+ls 
+cd repogit
+ls
+cd
+cd repogit
+pwd
+ls -la
+cat UTN-FRA_SO_onBording/
+cd UTN-FRA_SO_onBording/
+ls
+pwd
+ls -la
+clear
+history
+ssh-keygen
+cat $home/.ssh/*.pub
+cat $HOME/.ssh/*.pub
+cd
+pwd
+ls
+mkdel repogit
+mkdir repogit
+rmdir repogit
+rm -r repogit
+ls
+mkdir repogit
+ls
+cd repogit
+git clone ^[[200~git@github.com:renzoferrari/TP_AySO.git~
+pwd
+ls
+ls -l
+cd
+ls -la
+cd repogit
+clear
+git clone git@github.com:renzoferrari/TP_AySO.git
+pwd
+ls l
+ls -l
+cd TP_AySO/
+ls
+cd
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep --i UBUNTU /etc/passwd
+grep --ignore-case UBUNTU /etc/passwd
+ls
+cd carpeta_compartida/
+ls
+ls -la
+cd
+su -ubuntu
+su ubuntu
+pwd
+su Ubuntu
+su buntu
+su ubuntu
+su ubuntu 
+ls -la
+cd .ssh
+ls -la
+cd
+clear
+cat /etc/passwd
+cat ubuntu/home
+su ubuntu
+sudo ubuntu
+pwd
+ls
+sudo ls
+sudo ls -la
+cd
+pwd
+cat /etc/shadow
+sudo cat /etc/shadow
+grep -i ubuntu
+grep ubuntu
+clear
+history
+pwd
+sudo cat /etc/shadow
+grep --ignore-case ubuntu /etc/shadow
+sudo grep --ignore-case ubuntu /etc/shadow
+-help awk
+man awk
+sudo awk -f: ubuntu /etc/shadow
+sudo awk -f":" ubuntu /etc/shadow
+sudo awk -f ":" ubuntu /etc/shadow
+sudo awk -f ":" ubuntu 
+sudo grep --ignore-case ubuntu /etc/shadow | awk -f ':'{print$2}
+sudo cat /etc/shadow
+sudo grep --ignore-case ubuntu /etc/shadow | awk -f ':'{print$2}
+sudo grep --ignore-case ubuntu /etc/shadow | awk -F ':'{print$2}
+clear
+pwd
+sudo cat /etc/shadow
+sudo grep ubuntu /etc/shadow | awk -F ':''{print $2}'
+sudo grep ubuntu /etc/shadow | awk -F:'{print $2}'
+sudo grep ubuntu /etc/shadow | awk -F:'{print $2}' /etc/passwd
+sudo grep ubuntu /etc/shadow | awk -F:'{print $3}' /etc/passwd
+sudo grep ubuntu /etc/shadow | awk -F:'{print $}' /etc/passwd
+sudoawk -F:'{print $}' /etc/passwd
+sudo awk -F:'{print $}' /etc/passwd
+grep ubuntu /etc/shadow
+sudo grep ubuntu /etc/shadow
+sudo grep ubuntu /etc/shadow | awk -F: '{print $1}'
+sudo grep ubuntu /etc/shadow | awk -F: '{print $}'
+sudo grep ubuntu /etc/shadow | awk -F: '{print $2}'
+- ubuntu
+su - ubuntu
+pwd
+ls -la
+cd repogit/
+cat << fin >> datos_usuario.txt
+fin
+
+ls
+cat datos_usuario.txt
+cat << fin >> datos_usuario.txt
+$(sudo grep ubuntu /etc/shadow | awk -F: '{print $2}')
+fin
+
+cat datos_usuarios.txt
+cat datos_usuario.txt
+echo "Usuario=$(whoami)">> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+cd
+ls
+cd repogit
+ls -la
+cd TP_AySO/
+ls -la
+cd
+cd repogit/
+mv datos_usuario.txt TP_AySO/
+ls -laa
+ls -la
+cd TP_AySO/
+ls -la
+git add .
+git config --global user.email "renzoferrari@gmail.com"
+git config --global user.name "Renzo-pc"
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cat cpuinfo
+cd
+cat cpuinfo
+cpuinfo
+cat /proc/cpuinfo 
+grep -i proce /proc/cpuinfo
+grep -i proce /proc/cpuinfo | head -n2
+grep -i proce /proc/cpuinfo | tail -n2
+grep -i proce /proc/cpuinfo | tail -n3
+grep -i proce /proc/cpuinfo | head -n1
+grep -i proce /proc/cpuinfo | head -n2
+grep -i proce /proc/cpuinfo | " model name" head -n2
+grep -i proce /proc/cpuinfo | "model name" head -n2
+grep -i "model name" /proc/cpuinfo 
+grep -i "model name" /proc/cpuinfo | head -n1
+ls -la
+cd repogit/
+ls -la
+cd TP_AySO/
+ls -la
+grep "model name" /proc/cpuinfo | head -n1 >> info_pc.txt 
+ls -la
+cat info_pc.txt
+git status
+git add info_pc.txt 
+git status
+git add .
+git status
+git restore --staged info_pc.txt
+git status
+git add .
+git status
+git commit -m "feat:añadiendo informacion de cpu"
+git status
+git push
+git status
+cat /etc/passwd
+man grep
+grep -v nologin
+greo -v nologin /etc/passwd
+grep -v nologin /etc/passwd
+grep -v nologin /etc/passwd | awk F:'{print $7}
+grep -v "nologin" /etc/passwd | awk f:'{print $7}
+grep -v "nologin" /etc/passwd 
+man grep sort
+clear
+grep "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd 
+grep -v "nologin" /etc/passwd | sort 
+grep -v "nologin" /etc/passwd | sort -t
+grep -v "nologin" /etc/passwd | sort -t 1
+grep -v "nologin" /etc/passwd | sort -t 5
+grep -v "nologin" /etc/passwd | sort -t 7
+grep -v "nologin" /etc/passwd | sort -k 1
+clear
+grep -v "nologin" /etc/passwd 
+grep -v "nologin" /etc/passwd | sort -k7
+man grep 
+man sort
+grep -v "nologin" /etc/passwd | sort -k:7
+grep -v "nologin" /etc/passwd | sort -f: -k:7 
+grep -v "nologin" /etc/passwd | sort -t: -k:7 
+grep -v "nologin" /etc/passwd | sort -t: -k:1
+grep -v "nologin" /etc/passwd | sort -t: -k:0:7
+sudo grep -v "nologin" /etc/passwd
+sudo grep  /etc/passwd
+sudo grep /etc/passwd
+sudo cat /etc/passwd
+sudo grep -v "nologin" /etc/passwd
+clear
+sudo grep -v "nologin" /etc/passwd}
+sudo grep -v "nologin" /etc/passwd
+sudo grep -v "nologin" /etc/passwd | sort -t: -k7
+sudo grep -v "nologin" /etc/passwd | sort -t: -k7 | head -n 10
+sudo grep -v "nologin" /etc/passwd | sort -t: -k7 | head -n 10 >> lista_ordenada
+ls -la
+cat sort 
+clear
+ls -la
+git status
+git add lista_ordenada 
+git status
+git add lista_ordenada 
+git status
+git push lista_ordenada
+git push 
+git status
+clear
+history
+git commit -m:"ADD:listado de usuarios ordenada"
+git status
+git push
+clear
+ls -la
+cat README.md 
+cat << fin >> README.md 
+Alumno:Renzo Ferrari
+Division: 115
+Turno: Mañana
+fin
+
+cat README.md 
+cat << fin >> README.md 
+
+Alumno: Renzo Ferrari
+Division : 115
+cat << fin >> README.md 
+
+Alumno: Renzo Ferrari
+Division : 115
+turno: Mañana
+fin
+
+cat README.md 
+cat << fin > README.md 
+
+Alumno: Renzo Ferrari
+Division: 115
+Turno: Mañana 
+fin
+
+cat README.md 
+git status
+git add README.md 
+git commit -m:"DOCS:se agrego informacion personal"
+git push
+cd
+ls la
+ls -la
+pwd
+mkdir -p TP1/{arquitectura/clase{1..5},so/{clase1..6}
+tree TP1/
+sudo tree TP1/
+sudo apt install tree
+tree TP1/
+apt install tree
+sudo su ubuntu
+yes
+ls -la
+tree TP1/
+sudo apt install tree
+sudo snap install tree
+tree TP1/
+rm TP1/
+rm -r TP1/
+ls -la
+mkdir -p TP1/{arquitectura/clase{1..5},so/{clase1..6}}}
+tree TP1/
+rm -r TP1/
+mkdir -p TP1/{arquitectura/clase{1..5},so/{clase1..6}}}
+tree TP1/
+rm -r TP1/
+mkdir -p TP1/{arquitectura/clase{1..5},so/{clase{1..6}}}
+tree TP1/
+rm -r TP1/
+mkdir -p TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+tree TP1/
+cat << fin >> script_dir.sh
+ mkdir -p TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+cat << fin >> script_dir.sh
+ mkdir -p TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+fin
+
+cat script_dir.sh 
+rm script_dir.sh 
+cat << fin >> script_dir.sh
+#!/bin/bash
+
+>
+fin
+
+rm script_dir.sh 
+cat << fin >> script_dir.sh
+#!/bin/bash
+ mkdir -p TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+fin
+
+ls -la
+mv script_dir.sh /repogit/TP_AySO
+mv script_dir.sh repogit/TP_AySO/
+cd TP1/
+cd
+cd repogit/
+ls -la
+cd TP_AySO/
+ls -la
+chmod +x script_dir.sh 
+ls -la
+./script_dir.sh 
+ls -la
+cd
+./script_dir.sh }
+./script_dir.sh 
+ls -la
+./script_dir.sh 
+cd repogit/
+cd TP_AySO/
+./script_dir.sh 
+ls
+cd TP1/
+ls
+cd
+git status
+cd repogit/
+git status
+cd TP_AySO/
+git status
+git add script_dir.sh 
+git commit -m:"ADD:añadiendo script"
+git push
+history -a
+pwd
+..
+cd ..
+cd..
+cd ..
+pwd
+cd repogit/
+cd TP_AySO/
+cd
+pwd
+ls -la
+cat .bash_history
+clear
+cd repogit/
+cd TP_AySO/
